@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} /*começo da home*/
+.home {
+   background-color: #00153e;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:120px;
+}
+.logo img{
+    width: 350px;
+    height: 350px;
+}
+.logo h1 {
+    color: #00eedd;
+    font-family: MontSerrat;
+}
+/*fim da home*/
+
+/*começo da presentation*/
+.present{
+    background-color: #CCC;
+}
+nav{
+display: flex;
+flex-direction: row;
+background-color: #00153e;
+}
+.logotipo h1{
+    font-family:MontSerrat;
+    font-weight: bolder;
+    color: #c8b1ee;
+    margin-top:30px;
+}
+nav img {
+    width: 90px;
+    height: 90px;
+}
+.logotipo{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+/*fim da presentation*/
+@font-face{
+    font-family: MontSerrat;
+    src: url(../font/Montserrat.zip);
+}
